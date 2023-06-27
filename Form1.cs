@@ -60,7 +60,7 @@ namespace DigitalClock
             tf.Location = Location;
             tf.Show();
             this.Hide();
-            
+
         }
     }
 }

@@ -50,18 +50,20 @@
             lblTime.Size = new Size(204, 65);
             lblTime.TabIndex = 0;
             lblTime.Text = "22:22:22";
+            lblTime.TextAlign = ContentAlignment.TopCenter;
             // 
             // lblDate
             // 
             lblDate.AutoSize = true;
             lblDate.BackColor = Color.Black;
-            lblDate.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblDate.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblDate.ForeColor = Color.White;
-            lblDate.Location = new Point(129, 82);
+            lblDate.Location = new Point(149, 82);
             lblDate.Name = "lblDate";
-            lblDate.Size = new Size(114, 40);
+            lblDate.Size = new Size(103, 30);
             lblDate.TabIndex = 1;
-            lblDate.Text = "June 22";
+            lblDate.Text = "Август 22";
+            lblDate.TextAlign = ContentAlignment.BottomRight;
             // 
             // timer
             // 
@@ -71,15 +73,17 @@
             // 
             // lblDay
             // 
+            lblDay.AutoEllipsis = true;
             lblDay.AutoSize = true;
             lblDay.BackColor = Color.Black;
-            lblDay.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblDay.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblDay.ForeColor = Color.White;
-            lblDay.Location = new Point(1, 82);
+            lblDay.Location = new Point(12, 82);
             lblDay.Name = "lblDay";
-            lblDay.Size = new Size(122, 40);
+            lblDay.Size = new Size(89, 30);
             lblDay.TabIndex = 2;
             lblDay.Text = "Monday";
+            lblDay.TextAlign = ContentAlignment.BottomLeft;
             lblDay.Click += lblDay_Click;
             // 
             // pictureBox1
